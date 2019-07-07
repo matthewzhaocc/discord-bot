@@ -2,7 +2,7 @@ import discord
 import time
 import datetime
 from random import randint
-TOKEN = 'NTc5MTU4NjM3OTI3MzMzODk4.XN-How.8Sj4yBuS6JGqLmN0Q6i6txNMyyI'
+TOKEN = input('please enter your token')
 client = discord.Client()
 file = open('nsfw-keywords.txt', 'r')
 raw_data = file.read()
